@@ -6,9 +6,13 @@
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+    <script src="https://use.fontawesome.com/5550f63dbc.js"></script>
   </head>
 
   <body>
-    <%= yield %>
+	  <div class="container">
+	  	<%= yield %>
+	  </div>	
   </body>
 </html>
